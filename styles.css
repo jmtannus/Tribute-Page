@@ -1,1 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#title {
+    font-size: 400%;
+    width: 60vmax;
+  }
+
+.center {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.responsive-img {
+    display: block;
+    max-width: 100%;
+}
+
+
+@media only screen and (min-width:480px)
+{
+
+}
+
+@media only screen and (min-width:767px)
+{
+
+}
+
+@media only screen and (min-width:991px)
+{
+}
+
+@media only screen and (min-width:1200px)
+{
+    .font {
+        padding: 0px 200px 15px 200px;
+    }
+}
+
+@media(orientation: landscape)
+{
+    
+}
