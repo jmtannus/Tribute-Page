@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,26 +7,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tributo</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <!--A página de homenagem deve ter um elemento main com o id main correspondente, que envolva todos os demais elementos-->
+  <nav>
+    <ul>
+      <li><a href="#main">About</a></li>
+      <li><a href="#popular">Popular Vídeos</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#social">Social</a></li>
+    </ul>
+  </nav>
 
-  <!--Os elementos #img-div, #image, #img-caption, #tribute-info e #tribute-link devem estar aninhados dentro de #main.-->
+  <section id="main">
+    <div class="container">
+      <div id="tribute-info" class="tribute-info">
+        <h1 id="title">Ricardo Gouveia Tannus</h1>
+        <p>Lorem ipsum dolor sit amet. Qui porro voluptatem aut eius cumque est maiores fuga? Sit nobis voluptate
+          estodit reprehenderit et distinctio dolor a veniam modi vel amet facilis est quisquam nihil non quam
+          explicabo. Est libero quaerat et officiis quod nam mollitia dolorem sed iusto modi. Aut maxime vero qui
+          blanditiis consequatur et totam distinctio aut quaerat laborum quo veniam quas ea fugiat optio. In optio rerum
+          aut quisquam vero ea neque unde et consequatur necessitatibus. Velullam voluptatibus rem quia eligendi est
+          esse doloremque non nesciunt repudiandae et magnam impedit aut amet fugiat et voluptatem nesciunt.</p>
+        <p>
+          Seu <a id="tribute-link" href="https://www.facebook.com/ricardogouveia.tannus" target="_blank">Facebook.
+          </a>Ricardo Gouveia foi pai de três lindas crianças, esposo leal, amigo pra qualquer parada e trabalhou sua
+          vida inteira na Caixa Econômica Federal como concursado, aposentando-se em 2011.
+        </p>
+        <div class="g-ysuscribe" data-channel="RiardoGTannus" data-layout="full" data-count="default"></div>
+      </div>
+      <div id="img-div" class="img-div">
+        <img src="/Tribute-Page/images/RicardoGouveiaTannus.jpeg" alt="Ricardo G Tannus" id="image"
+          class="responsive-img">
+        <p id="img-caption">Ricardo Gouveia - <strong>#Coração acolhedor, pai e avô fraternal </strong>🥰</p>
+      </div>
+    </div>
+  </section>
 
-  <main id="main">
+  <section id="popular" class="bg-red">
+    <h2>Popular Vídeos</h2>
+    <div class="container">
+      <div class="video-wrapper">
+        <iframe src="/Tribute-Page/videos/VID_20191006_171832155.mp4" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
-    <h1 id="title">Dr. Norman Borlaug</h1>
-    <figure id="img-div">
-      <img src="" alt="" id="image">
-      <img src="" alt="" id="img-caption">
-      <img src="" alt="" id="tribute-info">
-      <a id="tribute-link" target="_blank">example</a>
-    </figure>
+      <div class="video-wrapper">
+        <iframe src="/Tribute-Page/videos/VID_20191030_210302763.mp4" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
 
-    
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="container">
+      <blockquote class="twitter-tweet">
+        <p lang="pt-br" dir="ltr">Me ajudou na infancia. O homem com mais caráter que conheci, queria sempre nos
+          mostrar o melhor caminho.</p>&mdash; Jana Tannus (@jmtannus) <a href="link aqui"> February 15,
+          2020</a>
+      </blockquote>
+    </div>
+  </section>
 
+  <section id="social" class="bg-red">
+    <h2>Conheça mais sobre Rica </h2>
+    <ul class="container social-ul"> <!-- ul>li*5>a-->
+      <li><a href="https://www.facebook.com/ricardogouveia.tannus" target="_blank"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li><a href="https://www.instagram.com/ricardogtannus" target="_blank"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li><a href="https://www.myheritage.com.br/person-1500002_1628979302_1628979302/dr-ricardo-gouveia-tannus"
+          target="_blank">My Herritage</a></li>
+      <li><a href="#" target="_blank"></a></li>
+    </ul>
+  </section>
+
+  <footer>
+    We love you, dad! : heart🥰🥰
+  </footer>
   </main>
 </body>
+
 </html>
