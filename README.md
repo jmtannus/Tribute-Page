@@ -4,4 +4,4 @@
 ## Se puder me ajudar à melhorar, agradeço demais!
 
 Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
-Em constante melhoria 
+Em constante melhoria . 
